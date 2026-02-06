@@ -3,107 +3,121 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haruy Sushi</title>
+    <title>Haruy Sushi - O verdadeiro sabor japonês</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <header class="header">
-        <img src="./assets/images/logo.png" alt="Haruy Sushi">
+        <h1>
+            <img src="./assets/images/logo.png" alt="Haruy Sushi">
+        </h1>
         <nav class="menu">
             <ul class="menu-links">
-                <li><a href="#cardapio">CARDAPIO </a></li>
-
+                <li><a href="#cardapio">CARDÁPIO</a></li>
             </ul>
         </nav>
     </header>
-    <section class="banner">
-        <div class="coluna">
-            <p> O verdadeiro sabor da cozinha japonesa</p>
-            <p><a class="botao" href="#cardapio">Veja nosso Cardápio </a></p>
-        </div>
-        <div class="coluna">
-            <img src="./assets/images/banner.png" alt="Banner Haruy Sushi">
-        </div>
-    </section>
-    <section class="cardapio" id="cardapio">
-        <h1>Cardápio</h1>
-        <div class="cardapio-categoria">
-            <strong>Sushi & Sashimi</strong>
-        </div>
-        <div>
-            <div class="cardapio-item">
-                <div class="cardapio-nome">Sushi Especial</div>
-                    <div class="cardapio-preco">R$ 99,00 </div>
-                        <div class="cardapio-descricao">10 sashimis Variados, 10 uramakis Filadélfia e 10 uramakis </div>
-                    
 
+    <main>
+        <section class="banner">
+            <div class="coluna">
+                <p>O verdadeiro sabor da cozinha japonesa</p>
+                <a class="botao" href="#cardapio">Veja nosso Cardápio</a>
             </div>
-             <div class="cardapio-item">
-                <div class="cardapio-nome">Barca</div>
-                    <div class="cardapio-preco">R$ 129,00 </div>
-                        <div class="cardapio-descricao">Barca </div>
-                    
-
+            <div class="coluna">
+                <img src="./assets/images/banner.png" alt="Prato de sushi variado Haruy Sushi">
             </div>
-             <div class="cardapio-item">
-                <div class="cardapio-nome">Combinado Hot</div>
-                    <div class="cardapio-preco">R$ 59,00 </div>
-                        <div class="cardapio-descricao"> Combinado hot </div>
-                    
+        </section>
 
-            </div>
-             <div class="cardapio-item">
-                <div class="cardapio-nome">Sashimi Variado</div>
-                    <div class="cardapio-preco">R$ 30,00 </div>
-                        <div class="cardapio-descricao">20 sashimis Variados </div>
-                    
+        <section class="cardapio" id="cardapio">
+            <header>
+                <h2>Nossas Delícias</h2>
+            </header>
 
-
-
-
-        </div>
-        <div>
-        <div class="cardapio-categoria">
-            <strong>Bebidas</strong>
-             <div class="cardapio-item">
-                <div class="cardapio-nome">Água</div>
-                    <div class="cardapio-preco">R$ 4,00 </div>
-                        <div class="cardapio-descricao">  Água </div>
-
+            <section class="categoria-menu">
+                <h3>Sushi & Sashimi</h3>
                 
+                <ul>
+                    <li class="cardapio-item">
+                        <article>
+                            <h4 class="cardapio-nome">Sushi Especial</h4>
+                            <span class="cardapio-preco">R$ 99,00</span>
+                            <p class="cardapio-descricao">10 sashimis Variados, 10 uramakis Filadélfia e 10 uramakis.</p>
+                        </article>
+                    </li>
 
-            </div>
-            <div class="cardapio-item">
-                <div class="cardapio-nome">Coca Cola</div>
-                    <div class="cardapio-preco">R$ 10,00 </div>
-                        <div class="cardapio-descricao">  Coca Cola </div>
-                    
+                    <li class="cardapio-item">
+                        <article>
+                            <h4 class="cardapio-nome">Barca</h4>
+                            <span class="cardapio-preco">R$ 129,00</span>
+                            <p class="cardapio-descricao">Barca completa com variados.</p>
+                        </article>
+                    </li>
 
+                    <li class="cardapio-item">
+                        <article>
+                            <h4 class="cardapio-nome">Combinado Hot</h4>
+                            <span class="cardapio-preco">R$ 59,00</span>
+                            <p class="cardapio-descricao">Combinado de hot rolls.</p>
+                        </article>
+                    </li>
+
+                    <li class="cardapio-item">
+                        <article>
+                            <h4 class="cardapio-nome">Sashimi Variado</h4>
+                            <span class="cardapio-preco">R$ 30,00</span>
+                            <p class="cardapio-descricao">20 sashimis variados.</p>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="categoria-menu">
+                <h3>Bebidas</h3>
                 
+                <ul>
+                    <li class="cardapio-item">
+                        <article>
+                            <h4 class="cardapio-nome">Água</h4>
+                            <span class="cardapio-preco">R$ 4,00</span>
+                            <p class="cardapio-descricao">Água mineral sem gás.</p>
+                        </article>
+                    </li>
 
-            </div>
-            <div class="cardapio-item">
-                <div class="cardapio-nome"> Torre de Chopp</div>
-                    <div class="cardapio-preco">R$ 180,00 </div>
-                        <div class="cardapio-descricao"> Torre de Chopp </div>
+                    <li class="cardapio-item">
+                        <article>
+                            <h4 class="cardapio-nome">Coca Cola</h4>
+                            <span class="cardapio-preco">R$ 10,00</span>
+                            <p class="cardapio-descricao">Lata 350ml.</p>
+                        </article>
+                    </li>
 
-            </div>
-
-        </div>
-    </div>
-    </section>
+                    <li class="cardapio-item">
+                        <article>
+                            <h4 class="cardapio-nome">Torre de Chopp</h4>
+                            <span class="cardapio-preco">R$ 180,00</span>
+                            <p class="cardapio-descricao">Torre de 2,5 Litros.</p>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </main>
 
     <footer>
         <h3>Haruy Sushi</h3>
-        <p>Rua Prof. Toledo, 500, centro = Sorocaba</p>
-        <p>Whatsapp: (15) 98765-4321</p>
-        <p>Aberto todos os dias das 14h às 23h</p>
+        <address>
+            <p>Rua Prof. Toledo, 500, Centro - Sorocaba</p>
+            <p>Whatsapp: (15) 98765-4321</p>
+        </address>
+        <p><small>Aberto todos os dias das 14h às 23h</small></p>
     </footer>
-    <a href="https://wa.me/5515987654321" class="link-whatsapp" target="_blank">
-        <img src="./assets/images/whatsapp.png" alt="WhatsApp">
-        </a>
-</body>
 
+    <a href="https://wa.me/5515987654321" class="link-whatsapp" target="_blank" aria-label="Fale conosco no WhatsApp">
+        <img src="./assets/images/whatsapp.png" alt="">
+    </a>
+
+</body>
 </html>
